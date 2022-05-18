@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint RXSDK.podspec' to ensure this is a
+# Be sure to run `pod lib lint RXPushSDK.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -39,8 +39,5 @@ TODO: Add long description of the pod here.
   # }
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-  
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-
   
 end
