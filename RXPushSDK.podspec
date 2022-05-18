@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint RXPushSDK.podspec' to ensure this is a
+# Be sure to run `pod lib lint RXSDK.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -9,9 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'RXPushSDK'
   s.version          = '1.0.0'
-  s.summary          = 'ruixue push framework.'
+  s.summary          = 'ruixue main framework.'
 
-# This description is used to generate tags and improve searc results.
+# This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
@@ -30,6 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '6.0'
 
+#  s.source_files = 'RXSDK/*'
    s.source_files = '*.framework/Headers/*.{h,m,plist}'
   
    s.vendored_frameworks = '*.framework'
@@ -39,5 +40,15 @@ TODO: Add long description of the pod here.
   # }
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'AdSupport', 'iAd', 'Foundation', 'UIKit'
+  # s.libraries = 'sqlite3', 'c++', 'c++abi', 'z'
+#
+  s.platform = :ios, '9.0'
+#  s.dependency 'WechatOpenSDK'
+#  s.dependency 'AFNetworking'
+#  s.dependency 'YYModel'
+#  s.dependency 'MBProgressHUD'
   
 end
