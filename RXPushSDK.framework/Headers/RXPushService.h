@@ -63,6 +63,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)registerDeviceToken:(NSData *)deviceToken;
 
 /**
+ * 上传deviceToken
+ * 登录后调用
+ * @param deviceToken APNS返回的设备码  必须
+ * @param complete 回调结果
+ */
+- (void)registerDeviceToken:(NSData *)deviceToken
+                   complete:(void(^)(NSDictionary *response, NSDictionary *error))complete;
+
+/**
  * 绑定别名
  * 登录后调用
  * @param alias 别名  必须
