@@ -111,6 +111,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)pushReceivedWithUserInfo:(NSDictionary *)userInfo;
 
+/**
+ * 设置角标badge数量
+ * @note 0 为清空角标
+ */
+- (void)setApplicationIconBadgeNumber:(NSInteger)badgeNumber;
+
 @end
 
 NS_ASSUME_NONNULL_END
