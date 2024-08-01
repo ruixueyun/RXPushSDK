@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXPushSDK'
-  s.version          = '3.0.7'
+  s.version          = '3.0.8'
   s.summary          = 'ruixue push framework.'
 
 # This description is used to generate tags and improve searc results.

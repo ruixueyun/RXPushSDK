@@ -117,6 +117,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)setApplicationIconBadgeNumber:(NSInteger)badgeNumber;
 
+/**
+ * 获取推送内容
+ */
+- (NSDictionary *)getClickPushInfo;
+
 @end
 
 NS_ASSUME_NONNULL_END
