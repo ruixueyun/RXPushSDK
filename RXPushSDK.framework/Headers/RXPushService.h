@@ -110,6 +110,8 @@ NS_ASSUME_NONNULL_BEGIN
  * @param userInfo 推送参数
  */
 - (void)pushReceivedWithUserInfo:(NSDictionary *)userInfo;
+- (void)pushReceivedWithUserInfo1:(NSDictionary *)userInfo
+                         complete:(void(^)(NSString *msg))complete;
 
 /**
  * 设置角标badge数量
